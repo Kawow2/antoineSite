@@ -12,6 +12,12 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
+    <button class="favorite styled"
+    type="button" id="button">
+    Add to favorites
+</button>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -23,4 +29,6 @@
 
 <script>
     console.log('yes');
+    var button = document.getElementById("button");
+    button.innerHTML = 'nope';
 </script>
